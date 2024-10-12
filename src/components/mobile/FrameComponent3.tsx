@@ -19,8 +19,14 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
               className={styles.mapIcon}
               loading="lazy"
               alt=""
-              src="https://www.google.com/maps?q=39.658515,66.905098"
+              src="https://www.google.com/maps?q="
             /> */}
+           <img
+              className={styles.mapIcon}
+              loading="lazy"
+              alt=""
+              src="https://static-maps.yandex.ru/1.x/?l=map&pt=66.905098,39.658515,pm2rdl&z=15"
+            />
           </div>
         </div>
         <div className={styles.ceremonyParent}>
