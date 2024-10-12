@@ -13,16 +13,16 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
   return (
     <div className={[styles.frameWrapper, className].join(" ")}>
       <div className={styles.frameParent}>
-        {/* <div className={styles.wrapperMapWrapper}>
+        <div className={styles.wrapperMapWrapper}>
           <div className={styles.wrapperMap}>
-            <img
+            {/* <img
               className={styles.mapIcon}
               loading="lazy"
               alt=""
               src="https://www.google.com/maps?q=39.658515,66.905098"
-            />
+            /> */}
           </div>
-        </div> */}
+        </div>
         <div className={styles.ceremonyParent}>
           <div className={styles.ceremony}>
             <div className={styles.wrapperGroup11Parent}>
