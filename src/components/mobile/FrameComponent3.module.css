@@ -1,0 +1,188 @@
+.mapIcon,
+.wrapperMap {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.mapIcon {
+  height: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: scale(1.242);
+}
+.wrapperMap {
+  height: 331px;
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperMapWrapper {
+  height: 414px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild {
+  height: 246px;
+  width: 269.5px;
+  border-radius: var(--br-3xs);
+  display: none;
+  z-index: 0;
+}
+.wrapperGroup12,
+.wrapperGroup12Child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wrapperGroup12Child {
+  overflow: hidden;
+  object-fit: contain;
+}
+.wrapperGroup12 {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-6xl);
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-30xl) var(--padding-12xl) var(--padding-29xl);
+  position: relative;
+}
+.wrapperGroup11,
+.wrapperGroup11Child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wrapperGroup11Child {
+  overflow: hidden;
+  object-fit: contain;
+}
+.wrapperGroup11 {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.frameDiv,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  justify-content: center;
+}
+.frameDiv {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  z-index: 1;
+}
+.ceremony,
+.wrapperGroup11Parent {
+  align-self: stretch;
+  filter: drop-shadow(0 0 40px rgba(231, 103, 103, 0.15));
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapperGroup11Parent {
+  flex-direction: row;
+  padding: var(--padding-30xl) var(--padding-16xl) var(--padding-29xl);
+  position: relative;
+}
+.ceremony {
+  flex-direction: column;
+  gap: 40px;
+  z-index: 1;
+  margin-bottom: 4rem;
+}
+.itIsAn {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+.itIsAnHonorAndHappinessFWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs) 0 var(--padding-3xs);
+  text-align: center;
+  font-size: var(--body3-300-size);
+  color: var(--netral-600);
+}
+.ceremonyParent,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ceremonyParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-372xl);
+  margin-left: -333px;
+}
+.frameParent,
+.frameWrapper {
+  flex-direction: row;
+}
+.frameParent {
+  flex: 1;
+  align-items: flex-end;
+}
+.frameWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-8xl) var(--padding-xs) var(--padding-7xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading5-500-size);
+  color: var(--color-white);
+  font-family: var(--body1-300);
+}

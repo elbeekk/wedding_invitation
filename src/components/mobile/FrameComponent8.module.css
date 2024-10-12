@@ -1,0 +1,253 @@
+.frameChild,
+.frameItem {
+  width: 10px;
+  height: 5px;
+  position: relative;
+}
+.frameItem {
+  width: 6px;
+  height: 3px;
+}
+.vectorParent {
+  position: absolute;
+  top: 8px;
+  left: 7.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.wrapperEllipse5,
+.wrapperEllipse5Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrapperEllipse5Child {
+  object-fit: contain;
+  transform: scale(2.68);
+}
+.wrapperEllipse5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameInner {
+  position: absolute;
+  top: 17px;
+  left: 11.5px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 2px;
+  height: 2px;
+  z-index: 1;
+}
+.wrapperEllipse5Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+}
+.frameGroup {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper {
+  width: 293px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.asep {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 61px;
+}
+.asepWrapper {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-18xl);
+  z-index: 1;
+}
+.putri {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 60px;
+}
+.putriWrapper {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-white);
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-18xl);
+  z-index: 1;
+}
+.frameDiv,
+.frameParent1,
+.putriWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent1 {
+  justify-content: flex-start;
+  gap: var(--gap-8xs-4);
+}
+.frameDiv {
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs);
+}
+.frameIcon,
+.vectorIcon {
+  height: 14.8px;
+  width: 10px;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorIcon {
+  height: 5px;
+  position: relative;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs);
+}
+.vectorIcon1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 2;
+}
+.frameParent3,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+}
+.frameParent3 {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-8);
+  box-sizing: border-box;
+  min-width: 84px;
+}
+.groupIcon,
+.vectorIcon2 {
+  height: 18.9px;
+  width: 25px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorIcon2 {
+  height: 5px;
+  width: 10px;
+}
+.vectorContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.vectorIcon3 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 2;
+}
+.frameParent4,
+.frameWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent4 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.frameWrapper2 {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-8);
+  box-sizing: border-box;
+  min-width: 84px;
+}
+.frameContainer,
+.frameParent2 {
+  align-self: stretch;
+  align-items: flex-end;
+}
+.frameParent2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameContainer {
+  flex-direction: column;
+  gap: var(--gap-6xl-8);
+}
+.frameContainer,
+.frameParent,
+.hpOrchidInner {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-31xl);
+}
+.hpOrchidInner {
+  width: 370px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-allura);
+}

@@ -1,0 +1,724 @@
+.frameChild {
+  height: 499px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.putriHolder {
+  height: 10px;
+  width: 34px;
+  position: absolute;
+  margin: 0 !important;
+  top: 242px;
+  right: 700.5px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  z-index: 2;
+}
+.dekstopOrchidChild,
+.frameParent {
+  position: absolute;
+  margin: 0 !important;
+  left: 0;
+  max-width: 100%;
+}
+.frameParent {
+  width: 100vw;
+  top: 4682px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dekstopOrchidChild {
+  width: 100%;
+  height: 1024px;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.dekstopOrchidInner,
+.frameContainer,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dekstopOrchidInner {
+  justify-content: flex-start;
+  padding: 0 73px 85.7px;
+}
+.frameContainer,
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) var(--padding-21xl);
+}
+.frameContainer {
+  padding: 0 var(--padding-11xs) var(--padding-21xl) var(--padding-10xs);
+}
+.werGettingMerried {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 47px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.sendButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+}
+.assalamualaikum {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.assalamualaikumWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-width: 211px;
+  max-width: 100%;
+}
+.warrohmatullah {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.warrohmatullahWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.wabarrakatuhu {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameParent3,
+.wabarrakatuhuWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.wabarrakatuhuWrapper {
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.frameParent3 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.byAskingFor {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.byAskingForTheGraceAndBlWrapper,
+.frameParent2,
+.sendButtonParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.byAskingForTheGraceAndBlWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-smi);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--body1-300-size);
+  color: var(--netral-600);
+  font-family: var(--body1-300);
+}
+.frameParent2,
+.sendButtonParent {
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent2 {
+  font-size: var(--font-size-29xl);
+  color: var(--netral-300);
+  font-family: var(--font-allura);
+}
+.sendButtonParent {
+  gap: var(--gap-31xl);
+}
+.february2022 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 300;
+}
+.february2022Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--netral-500);
+}
+.frameDiv,
+.frameParent1,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.frameDiv,
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-30xl) 50px;
+  box-sizing: border-box;
+}
+.frameWrapper1 {
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-21xl);
+}
+.wrapperGroup11Child {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.157);
+}
+.wrapperGroup11,
+.wrapperGroup11Parent {
+  position: absolute;
+  top: 0;
+  display: flex;
+  max-width: 100%;
+}
+.wrapperGroup11 {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.wrapperGroup11Parent {
+  left: 300px;
+  width: 509.5px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) 52px var(--padding-63xl);
+  box-sizing: border-box;
+}
+.maskGroupIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.wrapperMaskGroup {
+  position: absolute;
+  top: 756px;
+  left: 0;
+  width: 1045px;
+  height: 331px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent4,
+.itIsAn {
+  align-self: stretch;
+  position: relative;
+}
+.frameParent4 {
+  height: 1087px;
+  max-width: 100%;
+}
+.itIsAn {
+  font-size: var(--body1-300-size);
+  line-height: 120%;
+  font-weight: 500;
+  color: var(--netral-600);
+  text-align: center;
+}
+.dekstopOrchidInner1,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 1045px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 12.3px;
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--font-size-20xl);
+  color: var(--orchid-300);
+  font-family: var(--body1-300);
+}
+.dekstopOrchidInner1 {
+  width: 1055px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 23px 0 var(--padding-mini);
+}
+.ourStory {
+  flex: 1;
+  position: relative;
+  line-height: 47px;
+  font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+}
+.footerBorder,
+.maskGroupIcon1 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.footerBorder {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.maskGroupIcon1 {
+  height: 480px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.loremIpsumDolor {
+  height: 155px;
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.attendMaybeNo,
+.loremIpsumDolorSitAmetCoWrapper,
+.maskGroupParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loremIpsumDolorSitAmetCoWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+}
+.attendMaybeNo,
+.maskGroupParent {
+  flex-direction: column;
+}
+.attendMaybeNo {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-24xl) var(--padding-xs);
+  box-sizing: border-box;
+}
+.maskGroupParent {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 331px;
+}
+.loremIpsumDolor1 {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.loremIpsumDolorSitAmetCoContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper2,
+.maskGroupIcon2 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameWrapper2 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-xs);
+  box-sizing: border-box;
+}
+.maskGroupIcon2 {
+  height: 470px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameParent6,
+.frameParent7 {
+  display: flex;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameParent7 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  min-width: 331px;
+}
+.frameParent6 {
+  width: 1039px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: var(--body1-300-size);
+  color: var(--netral-400);
+}
+.footerBorderParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+}
+.vectorIcon {
+  width: 20.8px;
+  height: 20px;
+  position: relative;
+}
+.borderFooterIcon {
+  width: 12.8px;
+  height: 7px;
+  position: relative;
+}
+.frameWrapper4,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+}
+.vectorParent {
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.frameWrapper4 {
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-2xs-5) 0;
+}
+.vectorIcon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 16.2px;
+  box-sizing: border-box;
+  min-width: 281px;
+  max-width: 100%;
+}
+.frameItem {
+  height: 50.5px;
+  width: 69px;
+  position: relative;
+}
+.frameParent9 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 329px;
+  max-width: 100%;
+}
+.vectorIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -2px;
+}
+.vectorContainer {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) 18.1px 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  width: 20.8px;
+  height: 20px;
+  position: relative;
+}
+.vectorIcon4 {
+  width: 12.9px;
+  height: 7px;
+}
+.frameWrapper5,
+.vectorGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.vectorGroup {
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.frameWrapper5 {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2xs-5);
+}
+.frameParent8,
+.frameWrapper3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameParent8 {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.frameWrapper3 {
+  width: 1041.6px;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.frameParent5,
+.frameSection,
+.frameWrapper3 {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent5 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 103.2px;
+}
+.frameSection {
+  width: 1055px;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--font-size-20xl);
+  color: var(--orchid-300);
+  font-family: var(--body1-300);
+}
+.dekstopOrchid,
+.dekstopOrchidInner2,
+.frameSection {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.dekstopOrchidInner2 {
+  width: 1055px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-mini) 0 var(--padding-6xs);
+  max-width: 100%;
+}
+.dekstopOrchid {
+  width: 100%;
+  position: relative;
+  background-color: #fff3fb;
+  flex-direction: column;
+  align-items: center;
+  padding: 164px var(--padding-xl) 93px var(--padding-10xl);
+  gap: 100.3px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frameSection {
+    padding-bottom: 1114px;
+    box-sizing: border-box;
+  }
+  .dekstopOrchid {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .dekstopOrchidInner {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .werGettingMerried {
+    font-size: var(--heading4-500-size);
+    line-height: 37px;
+  }
+  .assalamualaikum,
+  .wabarrakatuhu,
+  .warrohmatullah {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .february2022 {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .frameParent1 {
+    gap: var(--gap-11xl);
+  }
+  .frameDiv {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .frameGroup {
+    gap: var(--gap-11xl);
+  }
+  .ourStory {
+    font-size: var(--heading4-500-size);
+    line-height: 37px;
+  }
+  .frameParent5 {
+    gap: 52px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .dekstopOrchidInner {
+    padding-bottom: 56px;
+    box-sizing: border-box;
+  }
+  .footerBorderParent,
+  .sendButtonParent {
+    gap: var(--gap-6xl);
+  }
+  .frameParent9 {
+    flex-wrap: wrap;
+  }
+  .frameParent5 {
+    gap: 26px;
+  }
+  .frameSection {
+    padding-bottom: 724px;
+    box-sizing: border-box;
+  }
+  .dekstopOrchid {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .werGettingMerried {
+    font-size: var(--font-size-4xl);
+    line-height: 28px;
+  }
+  .assalamualaikum,
+  .wabarrakatuhu,
+  .warrohmatullah {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .byAskingFor {
+    font-size: var(--body2-500-size);
+    line-height: 19px;
+  }
+  .february2022 {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .frameDiv {
+    padding-bottom: 32px;
+    box-sizing: border-box;
+  }
+  .itIsAn {
+    font-size: var(--body2-500-size);
+    line-height: 19px;
+  }
+  .ourStory {
+    font-size: var(--font-size-4xl);
+    line-height: 28px;
+  }
+  .loremIpsumDolor,
+  .loremIpsumDolor1 {
+    font-size: var(--body2-500-size);
+    line-height: 19px;
+  }
+}

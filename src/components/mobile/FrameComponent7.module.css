@@ -1,0 +1,147 @@
+.theWeddingOf {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.theWeddingOfWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl);
+}
+.asepPutri {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.frameChild {
+  height: 9px;
+  width: 9px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+}
+.ellipseWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div {
+  position: relative;
+  line-height: 120%;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 104px;
+}
+.frameDiv,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.wrapper {
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+}
+.frameDiv {
+  align-items: center;
+}
+.frameItem {
+  height: 9px;
+  width: 9px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+}
+.ellipseContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.frameContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.asepPutriParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+  font-size: var(--body1-300-size);
+  font-family: var(--body1-300);
+}
+.asepPutriParent {
+  flex-direction: column;
+  gap: var(--gap-53xl);
+}
+.arrowIcon {
+  height: 23px;
+  width: 23px;
+  object-fit: contain;
+  z-index: 1;
+}
+.arrowWrapper,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+}
+.arrowWrapper {
+  height: 23px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-34xl);
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-allura);
+}
+.frameParent,
+.hpOrchidInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-51xl);
+}
+.hpOrchidInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-56xl) var(--padding-198xl-2);
+  text-align: center;
+  font-size: var(--body1-300-size);
+  color: var(--color-white);
+  font-family: var(--body1-300);
+}

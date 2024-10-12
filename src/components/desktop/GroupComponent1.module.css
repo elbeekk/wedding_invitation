@@ -1,0 +1,122 @@
+.progressBarIcon,
+.vectorIcon {
+  width: 12.9px;
+  height: 7px;
+  position: relative;
+}
+.vectorIcon {
+  width: 20.8px;
+  height: 20px;
+}
+.sliderRange {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.vectorIcon1 {
+  width: 441px;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  z-index: 1;
+}
+.vectorWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-7) 0 0;
+  box-sizing: border-box;
+  min-width: 335px;
+  max-width: 100%;
+}
+.footerBarIcon {
+  width: 20.7px;
+  height: 15.3px;
+  position: relative;
+}
+.footerBarWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini-2) 0 0;
+}
+.frameChild,
+.vectorIcon2 {
+  height: 50px;
+  width: 66px;
+  position: relative;
+}
+.vectorIcon2 {
+  width: 20.7px;
+  height: 15.3px;
+}
+.frameParent,
+.vectorContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorContainer {
+  flex-direction: column;
+  padding: var(--padding-mini-2) 0 0;
+}
+.frameParent {
+  margin: 0 !important;
+  position: absolute;
+  right: 448.8px;
+  bottom: 0;
+  flex-direction: row;
+  gap: var(--gap-sm-5);
+}
+.vectorIcon3 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.vectorFrame {
+  width: 433.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-2) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vectorIcon4,
+.vectorIcon5 {
+  width: 12.9px;
+  height: 7px;
+  position: relative;
+}
+.vectorIcon5 {
+  width: 20.8px;
+  height: 20px;
+}
+.sliderRangeParent,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.sliderRangeParent {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-3xs) var(--padding-4xs) var(--padding-mid)
+    var(--padding-3xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs-7);
+  max-width: 100%;
+}

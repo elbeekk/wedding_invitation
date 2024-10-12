@@ -1,0 +1,235 @@
+.wrapperEllipse5,
+.wrapperEllipse5Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrapperEllipse5Child {
+  object-fit: contain;
+  transform: scale(1.84);
+}
+.wrapperEllipse5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.asepMarkerChild,
+.asepMarkerItem {
+  width: 18px;
+  height: 9px;
+  position: relative;
+}
+.asepMarkerItem {
+  width: 10px;
+  height: 5px;
+}
+.asepMarker,
+.asepMarkerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.asepMarkerWrapper {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  background-color: var(--orchid-500);
+  flex-direction: row;
+  align-items: flex-start;
+  z-index: 1;
+}
+.wrapperEllipse5Parent {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-l);
+}
+.asep {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 110px;
+}
+.asepWrapper {
+  border-radius: var(--br-xl);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 100px;
+  max-width: 100%;
+  z-index: 1;
+}
+.putri {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 105px;
+}
+.asepDivider {
+  flex: 1;
+  border-radius: var(--br-xl);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  padding: var(--padding-6xs) var(--padding-xl);
+  min-width: 263px;
+  z-index: 1;
+}
+.asepDivider,
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 828px;
+  flex-wrap: wrap;
+  gap: var(--gap-smi);
+}
+.frameContainer {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.borderFooterIcon {
+  position: absolute;
+  top: 8px;
+  left: 993px;
+  width: 40px;
+  height: 48px;
+  object-fit: contain;
+}
+.borderFooterIcon1,
+.borderFooterIcon2 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.borderFooterIcon1 {
+  height: 26.79%;
+  width: 1.99%;
+  top: 43.75%;
+  right: 43.92%;
+  bottom: 29.46%;
+  left: 54.09%;
+  max-height: 100%;
+}
+.borderFooterIcon2 {
+  width: 42.4%;
+  top: 69.64%;
+  right: 3.9%;
+  left: 53.7%;
+  height: 0;
+  z-index: 1;
+}
+.borderFooterChild {
+  position: absolute;
+  top: 0;
+  left: 480px;
+  max-height: 100%;
+  width: 64.9px;
+  object-fit: contain;
+}
+.borderFooterIcon3,
+.borderFooterIcon4 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.borderFooterIcon3 {
+  height: 26.79%;
+  width: 1.99%;
+  top: 46.43%;
+  right: 54.86%;
+  bottom: 26.79%;
+  left: 43.15%;
+  max-height: 100%;
+}
+.borderFooterIcon4 {
+  width: 41.65%;
+  top: 71.43%;
+  right: 54.47%;
+  left: 3.88%;
+  height: 0;
+  z-index: 1;
+}
+.borderFooterIcon5 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 40px;
+  height: 48px;
+  object-fit: contain;
+}
+.borderFooter {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  z-index: 1;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-38xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-allura);
+}
+@media screen and (max-width: 1050px) {
+  .asep,
+  .putri {
+    font-size: var(--font-size-29xl);
+    line-height: 58px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .asep {
+    font-size: var(--font-size-17xl);
+    line-height: 43px;
+  }
+  .asepWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .putri {
+    font-size: var(--font-size-17xl);
+    line-height: 43px;
+  }
+}

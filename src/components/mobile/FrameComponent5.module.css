@@ -1,0 +1,73 @@
+.weddingRingIcon {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.weddingCeremony {
+  position: relative;
+  line-height: 120%;
+  font-weight: 700;
+}
+.weddingCeremonyWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameGroup,
+.weddingRingParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameGroup {
+  padding: 0;
+}
+.weddingRingParent {
+  gap: var(--gap-8xs);
+}
+.b {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 115px;
+}
+.frameParent,
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+  font-size: var(--body1-300-size);
+}
+.frameParent {
+  align-self: stretch;
+  height: 169px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--heading5-500-size);
+  color: var(--color-white);
+  font-family: var(--body1-300);
+}

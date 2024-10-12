@@ -1,0 +1,47 @@
+.maskGroupIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  height: 400px;
+  border-radius: 12px;
+}
+.loremIpsumDolor {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+.loremIpsumDolorSitAmetCoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-5xs) var(--padding-3xs)
+    var(--padding-3xs);
+}
+.frameWrapper,
+.maskGroupParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  align-items: flex-start;
+  padding: var(--padding-24xl) var(--padding-lg) var(--padding-25xl)
+    var(--padding-xs);
+}
+.maskGroupParent {
+  align-items: flex-end;
+  gap: var(--gap-6xl);
+  text-align: center;
+  font-size: var(--body3-300-size);
+  color: var(--netral-600);
+  font-family: var(--body1-300);
+}

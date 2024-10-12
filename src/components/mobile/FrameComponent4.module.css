@@ -1,0 +1,102 @@
+.rafflesHotel {
+  position: relative;
+  line-height: 120%;
+  font-weight: 700;
+}
+.rafflesHotelWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.jlTerusanJakarta {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+.frameGroup,
+.jlTerusanJakartaNo53CicWrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.jlTerusanJakartaNo53CicWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs) var(--padding-3xs)
+    var(--padding-3xs);
+  text-align: center;
+  font-size: var(--body3-300-size);
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: center;
+}
+.map1Icon {
+  height: 25px;
+  width: 27px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.openMap {
+  position: relative;
+  font-size: var(--body3-300-size);
+  line-height: 16px;
+  font-weight: 500;
+  font-family: var(--body1-300);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 73px;
+}
+.map1Parent,
+.openMapWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.openMapWrapper {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.map1Parent {
+  align-items: center;
+  justify-content: center;
+}
+.frameContainer,
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.frameContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-42xl);
+  background-color: var(--orchid-500);
+  border-radius: var(--br-3xs);
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.frameParent,
+.frameWrapper {
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini) var(--padding-3xs)
+    var(--padding-3xs);
+}
+.frameParent {
+  align-items: center;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--heading5-500-size);
+  color: var(--color-white);
+  font-family: var(--body1-300);
+}

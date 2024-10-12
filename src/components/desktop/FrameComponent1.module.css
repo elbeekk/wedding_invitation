@@ -1,0 +1,99 @@
+.attendanceLotusIcon,
+.vectorIcon {
+  width: 20.8px;
+  height: 20px;
+  position: relative;
+}
+.vectorIcon {
+  width: 12.8px;
+  height: 7px;
+}
+.attendanceLotusParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs-7);
+}
+.vectorIcon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-sm-4);
+  box-sizing: border-box;
+  min-width: 281px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 51.1px;
+  width: 69px;
+  position: relative;
+}
+.vectorIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-sm-1);
+  box-sizing: border-box;
+  min-width: 283px;
+  max-width: 100%;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  width: 20.8px;
+  height: 20px;
+  position: relative;
+}
+.vectorIcon4 {
+  width: 12.9px;
+  height: 7px;
+}
+.frameContainer,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.vectorParent {
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.frameContainer {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs-7);
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-6);
+  max-width: 100%;
+}
