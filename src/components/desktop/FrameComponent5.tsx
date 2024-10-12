@@ -38,7 +38,7 @@ const FrameComponent5: FunctionComponent<FrameComponent5Type> = ({
               </div>
               <div className={styles.sendNow}>
                 <div className={styles.asepWrapper}>
-                  <div className={styles.asep}>04 11 2024</div>
+                  <div className={styles.asep}>06 11 2024</div>
                 </div>
               </div>
               <div className={styles.ellipseWrapper}>
