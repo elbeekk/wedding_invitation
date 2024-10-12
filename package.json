@@ -26,7 +26,7 @@
     },
     "scripts": {
         "start": "vite",
-        "build": "vite build",
+        "build": "tsc && vite build --output-path ./dist",
         "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
