@@ -42,7 +42,7 @@ const DekstopOrchid: FunctionComponent = () => {
                 </div>
                 <div className={styles.byAskingForTheGraceAndBlWrapper}>
                   <div className={styles.byAskingFor}>
-                  Xurmatli mehmonlar! Sizni  2024  yil  6-noyabr payshanba kuni farzandlarimizning nikox to‘ylari munosabati bilan yoziladigan dasturxonimizga tashrif buyurib, aziz mehmonimiz bo‘lishingizni so‘raymiz.
+                  Xurmatli mehmonlar! Sizni  2024  yil  6-noyabr chorshanba kuni farzandlarimizning nikox to‘ylari munosabati bilan yoziladigan dasturxonimizga tashrif buyurib, aziz mehmonimiz bo‘lishingizni so‘raymiz.
                   </div>
                 </div>
               </div>
