@@ -60,7 +60,7 @@ const GettingMerried: FunctionComponent<GettingMerriedType> = ({
             </div>
             <div className={styles.byAskingForTheGraceAndBlWrapper}>
               <div className={styles.byAskingFor}>
-                Xurmatli mehmonlar! Sizni 2024 yil 6-noyabr payshanba kuni
+                Xurmatli mehmonlar! Sizni 2024 yil 6-noyabr chorshanba kuni
                 farzandlarimizning nikox to‘ylari munosabati bilan yoziladigan
                 dasturxonimizga tashrif buyurib, aziz mehmonimiz bo‘lishingizni
                 so‘raymiz.
